@@ -6,8 +6,6 @@ a <- 15
 a <- 10
 b <- 6
 
-sprintf("la suma es: %f",a+b)
-
 suma <- a+b
 cat("la suma es: ",suma,"\n\n")
 
