@@ -9,7 +9,8 @@ b <- 6
 
 sprintf("la suma es: %f",a+b)
 
-cat("la suma es: ",a+b)
+suma <- a+b
+cat("la suma es: ",suma)
 
 
 # 2 -----------------------------------------------------------------------
