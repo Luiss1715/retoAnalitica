@@ -16,7 +16,7 @@ lado <- 5
 #Calculo
 area_cuadrado= lado * lado
 #Resultado
-sprintf("El area del cuadrado es: %f", area)
+cat("El area del cuadrado es: ", area_cuadrado,"\n\n")
 
 # 3 -----------------------------------------------------------------------
 #programa que calcula el area de un triangulo
@@ -37,7 +37,7 @@ radio <- 4.5
 # Calculo 
 area_circulo= pi*4.5**2
 #Resultado
-sprintf("El area del circulo es: %.2f", area_circulo)
+cat("El area del circulo es: ", area_circulo,"\n\n")
 
 # 5 -----------------------------------------------------------------------
 radio <- 20
@@ -53,9 +53,9 @@ cat("El volumen del cono es:", volumen,"\n\n")
 #Programa que convierte pesos mexicanos a USD
 peso = 450
 #Calculo
-cambio= dolar / 20
+cambio= peso / 20
 #Resultado
-sprintf("El cambio de pesos a dolares : $%.2f", cambio)
+cat("El cambio de pesos a dolares : ", cambio,"\n\n")
 
 # 7 -----------------------------------------------------------------------
 fahrenheit <- 89
