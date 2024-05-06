@@ -3,14 +3,13 @@ a <- 15
 
 # 1 -----------------------------------------------------------------------
 #programa que suma dos numeros y los muestra
-
 a <- 10
 b <- 6
 
 sprintf("la suma es: %f",a+b)
 
 suma <- a+b
-cat("la suma es: ",suma)
+cat("la suma es: ",suma,"\n\n")
 
 
 # 2 -----------------------------------------------------------------------
@@ -26,7 +25,7 @@ altura <- 20
 area <- 0.5 * base * altura
 
 # Mostrar el resultado
-cat("El área del triángulo es:", area)
+cat("El área del triángulo es:", area,"\n\n")
 
 
 # 4 -----------------------------------------------------------------------
@@ -40,7 +39,7 @@ altura <- 30
 volumen <- (1/3) * pi * radio^2 * altura
 
 # Mostrar el resultado
-cat("El volumen del cono es:", volumen)
+cat("El volumen del cono es:", volumen,"\n\n")
 
 # 6 -----------------------------------------------------------------------
 
@@ -52,6 +51,6 @@ fahrenheit <- 89
 celsius <- (5/9) * (fahrenheit - 32)
 
 # Mostrar el resultado
-cat("La temperatura en grados Celsius es:", celsius)
+cat("La temperatura en grados Celsius es:", celsius,"\n\n")
 
 
