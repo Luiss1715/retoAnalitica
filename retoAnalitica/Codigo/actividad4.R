@@ -55,3 +55,22 @@ ggplot(avg_temp_by_year, aes(x = Year, y = AverageTemperature, color = Country))
        y = "Temperatura Promedio") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
+
+
+# Cuartiles para Slovenia, Tanzania, Turkey 
+paises <- c("Slovenia", "Tanzania", "Turkey")
+datos <- newData[newData$Country %in% paises, ]
+summary(datos$AverageTemperature)
+
+# Cuartil para Slovenia 
+slovenia_data <- newData[newData$Country == "Slovenia", ]
+summary(slovenia_data$AverageTemperature)
+
+#Cuartil para Tanzania
+tanzania_data <- newData[newData$Country == "Tanzania", ]
+summary(tanzania_data$AverageTemperature)
+
+#Cuartil para Turkey
+turkey_data <- newData[newData$Country == "Turkey", ]
+summary(turkey_data$AverageTemperature)
+
